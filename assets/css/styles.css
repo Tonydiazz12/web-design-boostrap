@@ -8,11 +8,11 @@ body{
 /* contenedor central */
 
 .main-container{
-    min-height:100vh;
-    padding:20px;
+    min-height:calc(100vh - 120px);
     display:flex;
     justify-content:center;
     align-items:center;
+    padding:20px 0;
 }
 
 /* tarjeta del formulario */
@@ -52,7 +52,7 @@ body{
 /* textarea */
 
 .textarea{
-    height:90px;
+    height:60px;
     resize:none;
 }
 
@@ -68,4 +68,9 @@ body{
 
 .boton-enviar:hover{
     background:#1f4a77;
+}
+
+footer{
+font-size:14px;
+letter-spacing:0.5px;
 }
