@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    background:url("../img/background.jpg") center/cover no-repeat;
+    background:url("/assets/img/background.jpg") center/cover no-repeat;
     height:100vh;
 }
 
