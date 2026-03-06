@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario Glass</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        body {
+            background-image: url("assets/img/background.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+    <!-- NAVBAR -->
+
+    <nav class="bg-white/30 backdrop-blur-md shadow-md">
+        <div class="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
+
+            <div class="text-xl font-bold text-white">
+                <i class="fa-solid fa-camera-retro mr-2"></i>Tony Diaz
+            </div>
+
+            <div class="space-x-6 text-white font-medium">
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Nosotros</a>
+                <a href="#" class="font-bold">Contacto</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- FORMULARIO -->
+
+    <div class="flex-grow flex items-center justify-center p-6">
+
+        <div class="w-full max-w-md bg-white/20 backdrop-blur-lg border border-white/30 rounded-2xl shadow-xl p-8">
+
+            <h2 class="text-center text-white text-xl font-bold mb-4">
+                FORMULARIO DE DATOS DE USUARIO
+            </h2>
+
+            <form class="space-y-3">
+
+                <!-- Nombre -->
+
+                <div>
+                    <label class="text-white text-sm">Nombre Completo</label>
+
+                    <div class="flex items-center bg-white/30 rounded-lg mt-1 px-3">
+                        <i class="fa-solid fa-user text-white mr-2"></i>
+                        <input type="text"
+                            class="w-full bg-transparent outline-none py-2 text-white placeholder-white/70"
+                            placeholder="Ingrese su nombre">
+                    </div>
+                </div>
+
+                <!-- Correo -->
+
+                <div>
+                    <label class="text-white text-sm">Correo Electrónico</label>
+
+                    <div class="flex items-center bg-white/30 rounded-lg mt-1 px-3">
+                        <i class="fa-solid fa-envelope text-white mr-2"></i>
+                        <input type="email"
+                            class="w-full bg-transparent outline-none py-2 text-white placeholder-white/70"
+                            placeholder="ejemplo@correo.com">
+                    </div>
+                </div>
+
+                <!-- Teléfono -->
+
+                <div>
+                    <label class="text-white text-sm">Teléfono</label>
+
+                    <div class="flex items-center bg-white/30 rounded-lg mt-1 px-3">
+                        <i class="fa-solid fa-phone text-white mr-2"></i>
+                        <input type="text"
+                            class="w-full bg-transparent outline-none py-2 text-white placeholder-white/70"
+                            placeholder="+52 123 456 7890">
+                    </div>
+                </div>
+
+                <!-- Ciudad -->
+
+                <div>
+                    <label class="text-white text-sm">Ciudad y Estado</label>
+
+                    <div class="flex items-center bg-white/30 rounded-lg mt-1 px-3">
+                        <i class="fa-solid fa-location-dot text-white mr-2"></i>
+                        <input type="text"
+                            class="w-full bg-transparent outline-none py-2 text-white placeholder-white/70"
+                            placeholder="Ciudad y Estado">
+                    </div>
+                </div>
+
+                <!-- Mensaje -->
+
+                <div>
+                    <label class="text-white text-sm">Mensaje</label>
+
+                    <div class="flex items-start bg-white/30 rounded-lg mt-1 px-3">
+                        <i class="fa-solid fa-comment text-white mr-2 mt-2"></i>
+                        <textarea
+                            class="w-full bg-transparent outline-none py-2 text-white placeholder-white/70 resize-none"
+                            rows="3" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center pt-3">
+
+                    <small class="text-white/80 text-xs">
+                        *Aceptas nuestra política de privacidad
+                    </small>
+
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold">
+                        Enviar
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+<div class="flex justify-center mt-6 mb-10">
+    <a href="index.html"
+    class="bg-white/20 backdrop-blur-md border border-white/40 text-white px-6 py-2 rounded-lg font-semibold hover:bg-white/30 transition">
+    Regresar al formulario Bootstrap
+    </a>
+</div>
+    <!-- FOOTER -->
+
+    <footer class="bg-black/40 backdrop-blur-md text-white text-center py-3">
+
+        <p class="text-sm">
+            <i class="fa-solid fa-code mr-1"></i>
+            Desarrollado por
+        </p>
+
+        <p class="font-bold">Marco Diaz</p>
+
+        <small>22200720</small>
+
+    </footer>
+
+</body>
+
+</html>
